@@ -13,7 +13,7 @@ header{
 
 #bg{
   grid-area: left;
-  background: url('/public/assets/images/home-bg-img.svg') no-repeat top/contain;
+  background: url('/assets/images/home-bg-img.svg') no-repeat top/contain;
   background-position-x: -10rem;
   margin-bottom: 1.2rem;
 }
@@ -31,13 +31,13 @@ main .container{
   width: min(36.6rem  , 100%);
 
 }
-
 main h2{
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: var(--black);
   font-size:clamp(20px , 5vw , 2.8rem);
   margin-bottom:2.4rem;
+
 }
 
 
@@ -45,11 +45,14 @@ main h2{
 input{
   border: .2rem solid var(--grey-blue);
   padding: 0 1.6rem;
+  outline: none; 
 }
 
 input, button, .button{
   width: 100%;
   margin-bottom: 1.8rem;
+  font-size: 1.6rem;
+
   
 }
 

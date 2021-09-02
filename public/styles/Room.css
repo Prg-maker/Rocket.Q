@@ -110,10 +110,65 @@
 
 .questions .question-wrapper .question-content .question p{
   font-size: 1.6rem;
+  word-break:  break-word;
+  display: flex;
+  align-items: center;
+  min-height: 5.2rem;
 }
 .questions .actions a{
   font-size: 1.6rem;
 
 }
 
+/*Question*/
+.question-wrapper{
+  background: var(--light-blue);
+  margin-bottom: 0.8rem;
+  border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+  padding: 2.4rem;
 
+}
+.question-wrapper .question-content{
+  display:flex;
+  align-items: flex-start;
+
+  
+}
+.question-wrapper  .question-content .user {
+  margin-right: 1.6rem;
+  background-color: var(--blue);
+  clip-path: circle();
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.question-wrapper .actions{
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;  
+}
+.question-wrapper .actions > a{
+  display:flex;
+  align-items: center;
+}
+.question-wrapper .actions > a > img{
+  margin-right: 0.8rem;
+}
+.question-wrapper .actions > a + a{
+  margin-left: 2.4rem;
+}
+
+
+/*Question Read*/
+.question-wrapper.read{
+  background-color: var(--grey-medium);
+}
+.question-wrapper.read .user{
+  background-color: var(--grey-blue);
+}
+
+
+   

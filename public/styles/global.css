@@ -13,6 +13,7 @@ html{
   --grey-dark: #4d5e77;
   --grey-blue: #a1b2cd;
   --grey-light: #e5eaf1;
+  --grey-medium: #eaecf2;
 
 }
 
@@ -110,9 +111,20 @@ button > img , .button > img {
   color: var(--blue);
   border: .2rem solid var(--blue);
 }
-.button{
-  font-size: 1.5rem;
+button.red,
+.button.red{
+ background-color: var(--red);
+ color: var(--white);
+
 }
+
+.button.grey{
+  background-color: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+/*Header*/
+
 
 .content header{
   width: 80%;
