@@ -28,7 +28,7 @@
 
 
       <div class="buttons">
-        <div class="button outlined">
+        <div class="button outlined" id="room-id" data-id="32323">
           #323243
           <img src="assets/images/copy.svg" alt="Criar uma sala">
 
@@ -82,11 +82,11 @@
             </div>
 
             <div class="actions">
-              <a href="#" class="check">
+              <a href="#" class="check" data-id="2">
                 <img src="assets/images/check.svg" alt="Marca pergunta como lida">
                 Marca como lida
               </a>
-              <a href="#" class="delete">
+              <a href="#" class="delete" data-id="2">
                 <img src="assets/images/trash.svg" alt="Excluir pergunta">
                 Excluir
               </a>
@@ -104,11 +104,11 @@
             </div>
 
             <div class="actions">
-              <a href="#" class="check">
+              <a href="#" class="check" data-id="3">
                 <img src="assets/images/check.svg" alt="Marca pergunta como lida">
                 Marca como lida
               </a>
-              <a href="# " class="delete">
+              <a href="# " class="delete" data-id="3">
                 <img src="assets/images/trash.svg" alt="Excluir pergunta">
                 Excluir
               </a>
@@ -126,11 +126,11 @@
             </div>
 
             <div class="actions">
-              <a href="#" class="check">
+              <a href="#" class="check" data-id="4">
                 <img src="assets/images/check.svg" alt="Marca pergunta como lida">
                 Marca como lida
               </a>
-              <a href="#" class="delete">
+              <a href="#" class="delete" data-id="4">
                 <img src="assets/images/trash.svg" alt="Excluir pergunta">
                 Excluir
               </a>
@@ -142,7 +142,7 @@
               <div class="user">
                 <img src="assets/images/user.svg" alt="usuario">
               </div>
-              <div class="question">
+              <div class="question" >
                 <p>Olha você poderia me falar sobre os seus projetos em react e angular</p>
               </div>
              
@@ -150,7 +150,7 @@
 
             <div class="actions ">
               
-              <a href="#" class="delete">
+              <a href="#" class="delete" data-id="1">
                 <img src="assets/images/trash.svg" alt="Excluir pergunta">
                 Excluir
               </a>
@@ -167,7 +167,7 @@
       <h2>Excluir Pergunta</h2>
       <p class="p">Tem certeza que vocẽ deseja excluir está pergunta</p>
 
-      <form action="">
+      <form action="#" method="POST">
         <label for-id="password" class="sr-only">Digite a sua senha</label>
         <input type="password" id="password" name="password" placeholder="Digite a sua senha">
 
