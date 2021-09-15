@@ -1,0 +1,24 @@
+.noquestion{
+  font-size: 1.6rem;
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--dark-blue);
+}
+.noQuestion img{
+  margin-bottom: 1.2rem;
+}
+
+.noQuestion{
+  text-align: center;
+  margin-top: 5.2rem;
+}
+
+.noquestion:last-child{
+  font-family: 'Open-sans' , sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 1.3rem;
+  line-height: 1.9rem;
+
+}
